@@ -22,7 +22,6 @@ public class NotSafeDemo {
     public static void main(String[] args) {
 
         toMap();
-
     }
 
     public static void toMap() {
