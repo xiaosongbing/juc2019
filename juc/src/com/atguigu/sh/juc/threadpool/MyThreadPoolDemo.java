@@ -13,16 +13,6 @@ public class MyThreadPoolDemo {
     public static void main(String[] args) {
 
         System.out.println(Runtime.getRuntime().availableProcessors());
-
-
-//        int corePoolSize,
-//        int maximumPoolSize,
-//        long keepAliveTime,
-//        TimeUnit unit,
-//        BlockingQueue<Runnable> workQueue,
-//        ThreadFactory threadFactory,
-//        RejectedExecutionHandler handler
-//
         ExecutorService pool = new ThreadPoolExecutor(
                 2,
                 5,
