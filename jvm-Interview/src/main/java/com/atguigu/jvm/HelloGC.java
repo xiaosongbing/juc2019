@@ -18,7 +18,7 @@ public class HelloGC {
         System.out.println("TOTAL_MEMORY(-xms)=" + totalMemory + "(字节)、" + (totalMemory / (double) 1024 / 1024) + "MB");
         System.out.println("MAX_MEMORY(-xms)=" + maxMemory + "(字节)、" + (maxMemory / (double) 1024 / 1024) + "MB");*/
 
-        byte[] bytes = new byte[50 * 1024 * 1024];
+//        byte[] bytes = new byte[50 * 1024 * 1024];
 
 
     }
